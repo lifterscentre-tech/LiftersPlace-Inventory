@@ -1,6 +1,5 @@
-# Lifter's Apartments Inventory v4 (free plan)
-Upload to GitHub: index.html, sw.js, firebase-config.js, manifest.webmanifest, logo.png, icon-180/192/512.png.
-Paste firestore.rules into Firebase > Firestore > Rules > Publish (do this FIRST).
-Then open the app, sign in, Admin > "Rebuild user directory" (once) so staff can be tagged in notes.
-Old stock sheets from v3 are not used: v4 works from sales and new-stock entries. Starting stock = the closing stock loaded from your Excel.
+# Lifter's Apartments Inventory v5 (free plan)
+New in v5: transaction IDs on payments and receipts, PDF and image (OCR) receipt reading, automatic matching of payments, receipts and bank statement lines, reconciliation flags on the Entries page.
+Upload to GitHub (replace old files): index.html, sw.js (+ logo.png, icons, manifest.webmanifest, firebase-config.js if not already there).
+firestore.rules is unchanged from v4: no need to republish if v4 rules are already live.
 Raise VERSION in sw.js whenever you upload new files.
